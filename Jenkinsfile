@@ -7,7 +7,7 @@ pipeline {
         DOCKER_REGISTRY = 'https://hub.docker.com/repository/docker/agastya2205/nginx_custom/general'
         DOCKERFILE_PATH = 'nwat.txt'  // Path to your Dockerfile in the Git repository
         DOCKER_IMAGE_NAME = 'nginx.latest'
-        DOCKERHUB_TOKEN = credentials('dckr_pat_Z7unqe6WPqko9qmyRuIqFgRtIrc') // Use the ID of your Docker Hub token credential
+        DOCKERHUB_TOKEN = credentials('2205') // Use the ID of your Docker Hub token credential
     }
     
     stages {
